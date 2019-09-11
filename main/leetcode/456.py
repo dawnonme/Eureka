@@ -14,11 +14,20 @@ class Solution:
         ''' Stack: Time: O(n), Space: O(n)
         Idea: Use a stack to keep track of the 3 elements.
         '''
-        ele, stack = -float('inf'), []
+
+        # a stack to keep track of the pattern
+        stack = []
+
+        # largest temp element
+        ele = -float('inf')
+
+        # start from the end of the array
         for i in range(len(nums) - 1, -1, -1):
             if nums[i] < ele:
                 return True
             while stack and stack[-1] < nums[i]:
                 ele = stack.pop()
+            
+            # every pass, apppend the element into the stack
             stack.append(nums[i])
         return False
