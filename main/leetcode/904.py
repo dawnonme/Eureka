@@ -3,7 +3,7 @@ class Solution:
         from collections import defaultdict
 
         lo = hi = ans = 0
-        basket = defaultdict(lambda _: -1)
+        basket = defaultdict(lambda: -1)
 
         while hi < len(tree):
             cur = tree[hi]
