@@ -1,2 +1,30 @@
 # Eureka
-This is a collection of code. There are some interesting data structure and algorithm implementations. My Leetcode solutions are also here!
+
+## 1. What is Eureka?
+
+
+
+## 2. Why the name is Eureka?
+
+
+
+## 3. What is in Eureka?
+
+
+
+## 4. How can Eureka improve me?
+
+
+
+## 5. 
+
+
+
+
+
+
+
+
+
+
+
